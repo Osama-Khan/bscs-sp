@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D09AB673-275C-4CCC-B8F4-AECB01C1FEB2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SP</RootNamespace>
+    <AssemblyName>SP</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsstLabs\Lab16.cs" />
+    <Compile Include="Final\Q10.cs" />
+    <Compile Include="Final\Q4.cs" />
+    <Compile Include="Final\Q3.cs" />
+    <Compile Include="Final\Q2.cs" />
+    <Compile Include="Final\Q1.cs" />
+    <Compile Include="Final\Q5.cs" />
+    <Compile Include="Final\Q6.cs" />
+    <Compile Include="Final\Q7\Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Final\Q7\Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Final\Q7\Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Final\Q7\Server.Designer.cs">
+      <DependentUpon>Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Final\Q8\TCPClient.cs" />
+    <Compile Include="Final\Q8\TCPServer.cs" />
+    <Compile Include="Final\Q9.cs" />
+    <Compile Include="Labs\Lab14\ChatClient.cs" />
+    <Compile Include="Labs\Lab14\ChatClientMultiple.cs" />
+    <Compile Include="Labs\Lab14\ChatServer.cs" />
+    <Compile Include="Labs\Lab14\ChatServerMultiple.cs" />
+    <Compile Include="AsstLabs\Lab15.cs" />
+    <Compile Include="AsstLabs\Lab12.cs" />
+    <Compile Include="AsstLabs\Lab13.cs" />
+    <Compile Include="Labs\Lab13.cs" />
+    <Compile Include="Labs\Lab16\TCPClient.cs" />
+    <Compile Include="Labs\Lab16\TCPServer.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Enrolment.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Assignments\Week4.cs" />
+    <Compile Include="Assignments\Week5.cs" />
+    <Compile Include="Assignments\Week7.cs" />
+    <Compile Include="AsstLabs\Lab10.cs" />
+    <Compile Include="AsstLabs\Lab5.cs" />
+    <Compile Include="AsstLabs\Lab3.cs" />
+    <Compile Include="AsstLabs\Lab4.cs" />
+    <Compile Include="AsstLabs\Lab8.cs" />
+    <Compile Include="AsstLabs\Lab9.cs" />
+    <Compile Include="Mid\Q1.cs" />
+    <Compile Include="Mid\Q2.cs" />
+    <Compile Include="Mid\Q3.cs" />
+    <Compile Include="Mid\Q4.cs" />
+    <Compile Include="Mid\Q5.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assignments\Data\Departments.xml" />
+    <Content Include="Assignments\Data\Employees.xml" />
+    <Content Include="Final\Data\catalog.xml" />
+    <Content Include="Mid\Data\Result.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Final\Q7\Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Final\Q7\Server.resx">
+      <DependentUpon>Server.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

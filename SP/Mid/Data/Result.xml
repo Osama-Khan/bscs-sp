@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Results>
+  <Result>
+    <RegNo>2019-Arid-1213</RegNo>
+    <Gender>Male</Gender>
+    <Grade>3.2</Grade>
+  </Result>
+  <Result>
+    <RegNo>2019-Arid-1345</RegNo>
+    <Gender>Female</Gender>
+    <Grade>3.7</Grade>
+  </Result>
+  <Result>
+    <RegNo>2019-Arid-2314</RegNo>
+    <Gender>Female</Gender>
+    <Grade>2.7</Grade>
+  </Result>
+  <Result>
+    <RegNo>2019-Arid-1314</RegNo>
+    <Gender>Male</Gender>
+    <Grade>2.4</Grade>
+  </Result>
+  <Result>
+    <RegNo>2019-Arid-1315</RegNo>
+    <Gender>Male</Gender>
+    <Grade>2.5</Grade>
+  </Result>
+  <Result>
+    <RegNo>2019-Arid-1318</RegNo>
+    <Gender>Male</Gender>
+    <Grade>2.1</Grade>
+  </Result>
+</Results>

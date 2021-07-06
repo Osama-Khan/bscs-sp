@@ -1,0 +1,26 @@
+<Catalog>
+  <CD>
+    <Title>Empire</Title>
+    <Artist>Art1</Artist>
+    <Country>Count1</Country>
+    <Company>Comp1</Company>
+    <Price>3900</Price>
+    <Year>2017</Year>
+  </CD>
+  <CD>
+    <Title>Empire2</Title>
+    <Artist>Art2</Artist>
+    <Country>Count2</Country>
+    <Company>Comp2</Company>
+    <Price>1621</Price>
+    <Year>2020</Year>
+  </CD>
+  <CD>
+    <Title>Empire3</Title>
+    <Artist>Art3</Artist>
+    <Country>Count3</Country>
+    <Company>Comp3</Company>
+    <Price>5555</Price>
+    <Year>2012</Year>
+  </CD>
+</Catalog>
